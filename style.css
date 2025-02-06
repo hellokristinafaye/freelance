@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+/* nav bar start */
 nav {
     position: fixed;
     top: 0;
@@ -43,3 +44,15 @@ nav .logo {
     width: 16px;
     margin-left: 8px;
 }
+/* nav bar end */
+
+/* header start */
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#eefff9 0%, #ffccc1 49%, #dcdbff 100%);
+    padding: 0 10%;
+}
+
+
+/* header end */
