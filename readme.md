@@ -6,6 +6,14 @@ Technologies Used:
 
 - HTML
 - CSS
+  - animation
+
+    - -webkit-text-fill-color: transparent;
+    - -webkit-background-clip: text;
+    - background-size: 0%;
+    - @keyframes
+      - percentages
+      - background-size
 - JavaScript
 - Google Fonts
   - Poppins
