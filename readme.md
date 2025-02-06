@@ -1,6 +1,12 @@
 Overview:
 
+- Basic web page with modern styling to practice HTML, CSS, and JavaScript.
+
 Technologies Used:
+
+- HTML
+- CSS
+- JavaScript
 
 Features:
 
