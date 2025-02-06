@@ -7,6 +7,8 @@ Technologies Used:
 - HTML
 - CSS
 - JavaScript
+- Google Fonts
+  - Poppins
 
 Features:
 
