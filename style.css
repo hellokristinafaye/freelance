@@ -39,3 +39,7 @@ nav .logo {
     cursor: pointer;
     /* basically Bootstrap pill button.  Pretty cute tho! */
 }
+.nav-btn img {
+    width: 16px;
+    margin-left: 8px;
+}
