@@ -117,6 +117,9 @@ nav .logo {
 .header h1 span:first-child {
     animation: text-color1 2s linear infinite alternate;
 }
+.header h1 span:last-child {
+    animation: text-color2 2s linear infinite alternate;
+}
 @keyframes text-color1 {
     0% {
         background-size: 0%;
@@ -128,6 +131,18 @@ nav .logo {
         background-size: 100%;
     }
 }
+@keyframes text-color2 {
+    0% {
+        background-size: 0%;
+    }
+    40% {
+        background-size: 0%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+/* ohh ok so the animation first completes the first line and THEN starts the second line. that's b/c of the percentages */
 
 /* animation end */
 
