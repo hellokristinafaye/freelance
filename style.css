@@ -98,7 +98,37 @@ nav .logo {
     max-width: 360px;
     font-weight: 500;
 }
+.user-img {
+    width: 80%;
+    max-width: 570px;
+    position: absolute;
+    right: 13%;
+    bottom: 0;
+}
 
+/* animation start */
+.header h1 span {
+    background: linear-gradient(#000, #000);
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 0%;
+}
+.header h1 span:first-child {
+    animation: text-color1 2s linear infinite alternate;
+}
+@keyframes text-color1 {
+    0% {
+        background-size: 0%;
+    }
+    40% {
+        background-size: 100%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
 
+/* animation end */
 
 /* header end */
